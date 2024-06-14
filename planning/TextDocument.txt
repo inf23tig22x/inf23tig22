@@ -1,0 +1,17 @@
+1. HOME
+    - Our Page
+    - News
+
+2. ABOUT
+    - History
+    - Types
+
+3. Equipment
+    - Types of Bows
+    - Compare Bows(Table of Advantages/Disadvantages)
+    - Accessories
+
+
+4. Contact Us
+    - Contact Form
+    - Social Media

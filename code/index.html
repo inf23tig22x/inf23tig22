@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="ready()">
+    <header class="header">
+        <a class="navTitle" href="#">Archer's Nest</a>
+        <nav class="navbar">
+            <a href="#">About</a>
+            <a href="#">Equipment</a>
+            <a href="#">Contact Us</a>
+            <a href="#">XML</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="image-container">
+            <img class="image" src="imgs/img6.jpg" alt="Welcome Page Image">
+            <div class="overlay"></div>
+            <div class="overlay-text">
+                <div class="ovt-top">Welcome</div>
+                <div class="ovt-bot">to our archery page</div>
+            </div>
+        </section>
+
+        <section class="content" id="content">
+            <h1>Our Page</h1>
+            <p>Welcome to <strong>Archer's Nest</strong>, the premier online destination for archery enthusiasts of all levels.
+                Whether <em>you</em> are a beginner looking to take your first shot, an experienced archer seeking advanced
+                techniques, or a fan of archery's rich history, we have something for you.</p>
+
+            <figure id="figImage">
+                <img class="img" src="imgs/img3.jpg" alt="">
+                <figcaption>Fig.1 - Archer</figcaption>
+            </figure>                
+            <div class="buttons">
+                <button onclick="hideImage()" id="btnHideImage">Hide Element (visibility)</button>
+                <button onclick="hideElement()" id="btnHideElement">Hide Element (display)</button>
+            </div>
+            
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to <mark>inspire and support</mark> the global archery community by providing comprehensive resources,
+                expert advice, and a platform for sharing and celebrating the sport we love. We believe that archery is
+                more than just a sport – <mark>it’s a way of life</mark> that fosters focus, discipline, and a deep connection to
+                both history and nature.</p>
+
+            <section id="news">
+                <h1 onclick="myFunction()">News</h1>
+                <h2>Latest News</h2>
+                <section class="articles" id="newsSection">
+                    <!--xml load-->
+                </section>
+                
+            </section>
+        </section>
+
+
+    </main>
+</body>
+
+<script>
+    function ready() {
+        loadData();
+    }
+
+</script>
+
+</html>

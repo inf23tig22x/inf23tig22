@@ -1,0 +1,66 @@
+<inventory>
+    <newsList>
+        <news id="1" category="Archery">
+            <image src="imgs/img5.jpg" alt="Tournament Results News"/>
+            <title lang="en">Major Tournament Results</title>
+            <text>2024 World Archery Championships: Medal Winners and Highlights</text>
+            <redirect_link href="#tournament-results"/>
+        </news>
+
+        <news id="2" category="Archery">
+            <image src="imgs/img7.jpg" alt="Record-Breaking Image"/>
+            <title lang="en">Record-Breaking Achievements</title>
+            <text>New World Record: South Korean Archer Sets Unprecedented Score in Recurve</text>
+            <redirect_link href="#new-record"/>
+        </news>
+
+        <news id="3" category="Archery">
+            <image src="imgs/imgF.jpg" alt="Upcoming Events Image"/>
+            <title lang="en">Upcoming Events</title>
+            <text>Registration Now Open for the Annual National Archery Tournament</text>
+            <redirect_link href="#upcoming-events"/>
+        </news>
+
+        <news id="4" category="Archery">
+            <image src="imgs/img8.jpg" alt="Regulation Updates Image"/>
+            <title lang="en">Safety and Regulation Updates</title>
+            <text>New Safety Regulations Announced by World Archery Federation</text>
+            <redirect_link href="#regulation-update"/>
+        </news>
+
+        <news id="4" category="Archery">
+            <image src="imgs/img1.jpg" alt="Archery Festivals and Fairs Image"/>
+            <title lang="en">Archery Festivals and Fairs</title>
+            <text>Traditional Archery Fair: Celebrating the Heritage and Craftsmanship</text>
+            <redirect_link href="#festivals"/>
+        </news>
+    </newsList>
+    <bows>
+        <bow id="1" type="recurve">
+            <image src="" alt="Arco Recurvo"/>
+            <brand>Marca A</brand>
+            <model>Modelo X</model>
+            <description>Arco recurvo</description>
+        </bow>
+        <bow id="2" type="compound">
+            <image src="" alt="Arco Composto"/>
+            <brand>Marca B</brand>
+            <model>Modelo Y</model>
+            <description>Arco composto</description>
+        </bow>
+    </bows>
+    <accessories>
+        <quiver id="1">
+            <image src="" alt="quiver"/>
+            <brand>Marca Q</brand>
+            <model>Modelo Q1</model>
+            <description>Quiver</description>
+        </quiver>
+        <finger_tab id="1">
+            <image src="" alt="Dedeira"/>
+            <brand>Marca D</brand>
+            <model>Modelo D1</model>
+            <description>Dedeira</description>
+        </finger_tab>
+    </accessories>
+</inventory>
