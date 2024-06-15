@@ -15,7 +15,7 @@ function loadData() {
 function createNews(xml) { //código feio
     var newsSection = document.getElementById('newsSection');        // THE PARENT DIV.
     var newsList = xml.getElementsByTagName('news');       // THE XML TAG NAME.
-    
+
     for (var i = 0; i < newsList.length; i++) {
         var news = document.createElement('article');
 
@@ -88,4 +88,10 @@ function hideElement() {
         x.style.display = "inline";
         btn.innerText = "Hide Element (display)";
     }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }

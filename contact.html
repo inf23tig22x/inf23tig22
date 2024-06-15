@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="ready()">
+    <header class="header">
+        <a class="navTitle" href="index.html">Archer's Nest</a>
+        <nav class="navbar">
+            <a href="about.html">About</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="xml/xml.zip" download>XML</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content firstSection" id="content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Whether you have questions, feedback, or inquiries about our products and
+                services, feel free to reach out to us using the contact details below.</p>
+
+            <figure id="figImage">
+                <img class="img" src="imgs/img2.jpg" alt="">
+                <figcaption>Fig.3 - Archer</figcaption>
+            </figure>
+            <p>
+            <h2>Fill our Form</h2>
+            </p>
+            <form action="">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="First Name">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Last Name">
+
+                <label for="emailinput">Email:</label>
+                <input type="email" id="emailinput" placeholder="Your Email">
+
+                <label for="textMessage">Message:</label>
+                <textarea name="textMessage" id="textMessage" rows="10"></textarea>
+
+                <input type="submit" name="btnSubmit" id="btnSubmit">
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="footerLogo">
+                <a href="index.html">
+                    <h1>Archer's Nest</h1>
+                </a>
+            </div>
+            <div class="flex-footer">
+                <a href="https://www.x.com" target="_blank"><img src="imgs/logo/xlogo.png" alt=""></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/logo/facebooklogo.png" alt=""></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/logo/instalogo.png" alt=""></a>
+            </div>
+            <div class="toTop"><span onclick="topFunction()">Back to Top</span></div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    function ready() {
+        loadData();
+    }
+
+</script>
+
+</html>
