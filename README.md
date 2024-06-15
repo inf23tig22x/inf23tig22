@@ -4,7 +4,7 @@ Repository to host the project developed for 'Tecnologias de Internet', a first 
 
 ## Short theme description
 
- A static website for an archery store.
+ A static website for an archery page.
 
 ## Technologies
 
