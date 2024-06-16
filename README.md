@@ -10,7 +10,7 @@ Repository to host the project developed for 'Tecnologias de Internet', a first 
 
 * **Source code** is in the repository itself.
 * Report chapters are in [Planning folder](planning/).
-* Source images are in the [images folder](images/).
+* Source images are in the [images folder](imgs/).
 * XML code is in the [xml folder](xml/).
 
 ## Technologies
