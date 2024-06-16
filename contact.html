@@ -33,20 +33,23 @@
             <p>
             <h2>Fill our Form</h2>
             </p>
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="5468e051-9e98-4a5f-a872-1cb2fd695c89">
+
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" placeholder="First Name" required>
+                <input name="First Name" type="text" id="fname" placeholder="First Name" required>
 
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" placeholder="Last Name" required>
+                <input name="Last Name" type="text" id="lname" placeholder="Last Name" required>
 
                 <label for="emailinput">Email:</label>
-                <input type="email" id="emailinput" placeholder="Your Email" required>
+                <input name="Email" type="email" id="emailinput" placeholder="Your Email" required>
 
                 <label for="textMessage">Message:</label>
-                <textarea name="textMessage" id="textMessage" rows="10" required minlength="10"></textarea>
+                <textarea name="Message" id="textMessage" rows="10" required minlength="10"></textarea>
 
-                <input type="submit" name="btnSubmit" id="btnSubmit">
+                <input type="submit" id="btnSubmit">
             </form>
 
         </section>
