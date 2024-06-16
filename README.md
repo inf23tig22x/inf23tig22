@@ -18,6 +18,7 @@ Repository to host the project developed for 'Tecnologias de Internet', a first 
 
 * XML
 * HTML5 + CSS3
+* JavaScript
 
 
 ### Project presentation
